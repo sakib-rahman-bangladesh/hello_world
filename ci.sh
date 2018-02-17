@@ -62,7 +62,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "init goal : Universal device responsive intelligent-SDK by Playlagom. "
+git commit -m "Change detected, uploading ..."
 
 ############
 # Step: 05 #
