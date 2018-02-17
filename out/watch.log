@@ -1,3 +1,103 @@
 Building ...
-... done. Elapsed 0.182714802 seconds
+... done. Elapsed 0.191536601 seconds
 Watching paths: C:\Dev\Web\cljs\github\hello_world\src
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+java.io.FileNotFoundException: out\goog\deps.js (The requested operation cannot be performed on a file with a user-mapped section open)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at clojure.java.io$fn__9522.invokeStatic(io.clj:230)
+	at clojure.java.io$fn__9522.invoke(io.clj:230)
+	at clojure.java.io$fn__9459$G__9428__9466.invoke(io.clj:69)
+	at clojure.java.io$fn__9496.invokeStatic(io.clj:166)
+	at clojure.java.io$fn__9496.invoke(io.clj:166)
+	at clojure.java.io$fn__9472$G__9424__9479.invoke(io.clj:69)
+	at clojure.java.io$writer.invokeStatic(io.clj:119)
+	at clojure.java.io$writer.doInvoke(io.clj:104)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at clojure.core$spit.invokeStatic(core.clj:6668)
+	at clojure.core$spit.doInvoke(core.clj:6668)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at cljs.closure$output_unoptimized.invokeStatic(closure.clj:1718)
+	at cljs.closure$output_unoptimized.doInvoke(closure.clj:1704)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at cljs.closure$build.invokeStatic(closure.clj:2156)
+	at cljs.closure$watch$buildf__4975.invoke(closure.clj:2235)
+	at cljs.closure$watch.invokeStatic(closure.clj:2304)
+	at cljs.repl$repl_STAR_$fn__5547$fn__5552.invoke(repl.cljc:876)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Unknown Source)
+
+Change detected, recompiling ...
+... done. Elapsed 0.180893744 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
+... done. Elapsed 0.217690768 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.168811999 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+java.io.FileNotFoundException: out\goog\deps.js (The requested operation cannot be performed on a file with a user-mapped section open)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at clojure.java.io$fn__9522.invokeStatic(io.clj:230)
+	at clojure.java.io$fn__9522.invoke(io.clj:230)
+	at clojure.java.io$fn__9459$G__9428__9466.invoke(io.clj:69)
+	at clojure.java.io$fn__9496.invokeStatic(io.clj:166)
+	at clojure.java.io$fn__9496.invoke(io.clj:166)
+	at clojure.java.io$fn__9472$G__9424__9479.invoke(io.clj:69)
+	at clojure.java.io$writer.invokeStatic(io.clj:119)
+	at clojure.java.io$writer.doInvoke(io.clj:104)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at clojure.core$spit.invokeStatic(core.clj:6668)
+	at clojure.core$spit.doInvoke(core.clj:6668)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at cljs.closure$output_unoptimized.invokeStatic(closure.clj:1718)
+	at cljs.closure$output_unoptimized.doInvoke(closure.clj:1704)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at cljs.closure$build.invokeStatic(closure.clj:2156)
+	at cljs.closure$watch$buildf__4975.invoke(closure.clj:2235)
+	at cljs.closure$watch.invokeStatic(closure.clj:2304)
+	at cljs.repl$repl_STAR_$fn__5547$fn__5552.invoke(repl.cljc:876)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Unknown Source)
+
+Change detected, recompiling ...
+... done. Elapsed 0.190166555 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
+... done. Elapsed 0.233799413 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.185425315 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
+... done. Elapsed 0.200956781 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.178791035 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
+... done. Elapsed 0.29028254 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.223179067 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
+... done. Elapsed 0.227160421 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.194087965 seconds
