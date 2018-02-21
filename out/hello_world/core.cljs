@@ -7,3 +7,7 @@
   (println "workding:cljs with nodejs"))
 
 (set! *main-cli-fn* -main)
+
+;; ADDED
+(defn foo [a b]
+  (* a b))

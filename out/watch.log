@@ -1,12 +1,131 @@
 Building ...
+Compiling out\cljs\nodejs.cljs
 Compiling src\hello_world\core.cljs
-Analyzing jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs
-Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
-... done. Elapsed 0.309854778 seconds
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.292668472 seconds
 Watching paths: C:\Dev\Web\cljs\github\hello_world\src
 Change detected, recompiling ...
 Compiling src\hello_world\core.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
 Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\hello_world\core.cljs
-... done. Elapsed 0.266244955 seconds
+... done. Elapsed 0.509793841 seconds
 Change detected, recompiling ...
-... done. Elapsed 0.229244022 seconds
+Compiling out\cljs\nodejs.cljs
+Compiling src\hello_world\core.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.437409905 seconds
+Change detected, recompiling ...
+Compiling src\hello_world\core.cljs
+WARNING: Use of undeclared Var cljs.user/commnet at line 1 src\hello_world\core.cljs
+WARNING: No such namespace: nodejs, could not locate nodejs.cljs, nodejs.cljc, or Closure namespace "" at line 5 src\hello_world\core.cljs
+WARNING: Use of undeclared Var nodejs/enable-util-print! at line 5 src\hello_world\core.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+Copying file:/C:/Dev/Web/cljs/github/hello_world/src/hello_world/core.cljs to out\cljs\user\src_BSLASH_hello_world_BSLASH_coreB7686D4.cljs
+java.io.FileNotFoundException: out\cljs\user\src_BSLASH_hello_world_BSLASH_coreB7686D4.cljs (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at clojure.java.io$fn__9522.invokeStatic(io.clj:230)
+	at clojure.java.io$fn__9522.invoke(io.clj:230)
+	at clojure.java.io$fn__9459$G__9428__9466.invoke(io.clj:69)
+	at clojure.java.io$fn__9496.invokeStatic(io.clj:166)
+	at clojure.java.io$fn__9496.invoke(io.clj:166)
+	at clojure.java.io$fn__9472$G__9424__9479.invoke(io.clj:69)
+	at clojure.java.io$writer.invokeStatic(io.clj:119)
+	at clojure.java.io$writer.doInvoke(io.clj:104)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at clojure.core$spit.invokeStatic(core.clj:6668)
+	at clojure.core$spit.doInvoke(core.clj:6668)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at cljs.closure$source_on_disk.invokeStatic(closure.clj:1689)
+	at cljs.closure$output_unoptimized$fn__4759.invoke(closure.clj:1713)
+	at clojure.core$map$fn__4785.invoke(core.clj:2646)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:521)
+	at clojure.core$seq__4357.invokeStatic(core.clj:137)
+	at clojure.core$filter$fn__4812.invoke(core.clj:2700)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:521)
+	at clojure.core$seq__4357.invokeStatic(core.clj:137)
+	at clojure.core$map$fn__4785.invoke(core.clj:2637)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.boundedLength(RT.java:1749)
+	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+	at clojure.core$apply.invokeStatic(core.clj:646)
+	at cljs.closure$deps_file.invokeStatic(closure.clj:1405)
+	at cljs.closure$output_deps_file.invokeStatic(closure.clj:1427)
+	at cljs.closure$output_unoptimized.invokeStatic(closure.clj:1723)
+	at cljs.closure$output_unoptimized.doInvoke(closure.clj:1704)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at cljs.closure$build.invokeStatic(closure.clj:2156)
+	at cljs.closure$watch$buildf__4975.invoke(closure.clj:2235)
+	at cljs.closure$watch.invokeStatic(closure.clj:2304)
+	at cljs.repl$repl_STAR_$fn__5547$fn__5552.invoke(repl.cljc:876)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Unknown Source)
+
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.382808825 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.281269133 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.243415651 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.250142593 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.229362075 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.264781461 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.235410277 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.26189269 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.195180024 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.246693134 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.216897115 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.373139188 seconds
+Change detected, recompiling ...
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejs.cljs to out\cljs\nodejs.cljs
+Copying jar:file:/C:/Dev/Web/cljs/github/hello_world/cljs.jar!/cljs/nodejscli.cljs to out\cljs\nodejscli.cljs
+... done. Elapsed 0.387771512 seconds

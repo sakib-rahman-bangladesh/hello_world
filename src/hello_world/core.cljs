@@ -1,3 +1,5 @@
+(commnet "
+
 (ns hello-world.core
   (:require [cljs.nodejs :as nodejs]))
 
@@ -5,5 +7,11 @@
 
 (defn -main [& args]
   (println "workding:cljs with nodejs"))
-
+  
 (set! *main-cli-fn* -main)
+
+;; ADDED
+(defn foo [a b]
+  (* a b))
+
+")
