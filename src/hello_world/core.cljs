@@ -3,4 +3,4 @@
 
 (enable-console-print!)
 
-(println "Success...Hello React!")
+(println "React with cljs")

@@ -62,7 +62,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "(React with cljs) Change detected, uploading ..."
+git commit -m "Change detected, uploading ..."
 
 ############
 # Step: 05 #
