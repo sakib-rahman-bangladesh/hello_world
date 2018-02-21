@@ -1,5 +1,9 @@
-(ns hello-world.core)
+(ns hello-world.core
+  (:require [cljs.nodejs :as nodejs]))
 
-(enable-console-print!)
+(nodejs/enable-util-print!)
 
-(println "Famous msg: Hello world!")
+(defn -main [& args]
+  (println "workding:cljs with nodejs"))
+
+(set! *main-cli-fn* -main)
