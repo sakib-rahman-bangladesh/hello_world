@@ -1,3 +1,4 @@
 goog.addDependency("base.js", ['goog'], []);
 goog.addDependency("../cljs/core.js", ['cljs.core'], ['goog.string', 'goog.object', 'goog.math.Integer', 'goog.string.StringBuffer', 'goog.array', 'goog.math.Long']);
-goog.addDependency("../.js", ['cljs.user.src_BSLASH_hello_world_BSLASH_coreB7686D4'], ['cljs.core']);
+goog.addDependency("../cljsjs/react/development/react.inc.js", ['cljsjs.react'], []);
+goog.addDependency("../hello_world/core.js", ['hello_world.core'], ['cljs.core', 'cljsjs.react']);

@@ -1,13 +1,6 @@
 (ns hello-world.core
-  (:require [cljs.nodejs :as nodejs]))
+  (:require cljsjs.react))
 
-(nodejs/enable-util-print!)
+(enable-console-print!)
 
-(defn -main [& args]
-  (println "workding:cljs with nodejs"))
-
-(set! *main-cli-fn* -main)
-
-;; ADDED
-(defn foo [a b]
-  (* a b))
+(println "Success...Hello React!")
