@@ -1,1 +1,1 @@
-{"version":3,"file":"\/C:\/Dev\/Web\/cljs\/github\/hello_world\/out\/hello_world\/core.js","sources":["core.cljs"],"lineCount":8,"mappings":";AAAA;;;AAGA,AAACA;AAED,4BAAA,5BAACC","names":["cljs.core\/enable-console-print!","cljs.core\/println"]}
+{"version":3,"file":"\/C:\/Dev\/Web\/cljs\/hello_world\/out\/hello_world\/core.js","sources":["core.cljs"],"lineCount":8,"mappings":";AAGA;;;AAGA,AAACA;AAED,4BAAA,5BAACC","names":["cljs.core\/enable-console-print!","cljs.core\/println"]}
