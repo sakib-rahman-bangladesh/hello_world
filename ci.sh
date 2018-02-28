@@ -62,7 +62,7 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 
-git commit -m "Figwheel setup, fighwheel-projects: Change detected, uploading ..."
+git commit -m "Figwheel setup, continue ..."
 
 ############
 # Step: 05 #

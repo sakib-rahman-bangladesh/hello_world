@@ -6,3 +6,199 @@ notifying browser that file changed:  out\hello_seymore\core.js
 [0mCompiling "main.js" from ["src"]...[0m
 [32mSuccessfully compiled "main.js" in 0.391 seconds.[0m
 notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.591 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.517 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.316 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.357 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.419 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.304 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.426 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.369 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.373 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.341 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.444 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 1.336 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.42 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.437 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.376 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.401 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.412 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.365 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.386 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.418 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/hello_seymore/core.cljs   line:14  column:13  ----[0m
+
+  [1mUse of undeclared Var hello-seymore.core/like-seymore[0m
+
+  [36m10[0m  [36m;;                    "Thumbs up"]]]))[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(defn render! [][0m
+  [36m13[0m  [36m  (.render js/ReactDOM[0m
+  [33m14[0m  [1m           (like-seymore app-state)[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var hello-seymore.core/like-seymore[0m
+  [36m15[0m  [36m           (.getElementById js/document "app")))[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(add-watch app-state :on-change (fn [_ _ _ _] (render!)))[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(render!)[0m
+
+[36m----  Compiler Warning : Please see src/hello_seymore/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.543 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+Figwheel: Can't open  ("src/hello_seymore/core.cljs" 14 13) No :open-file-command supplied in the config.
+Figwheel: Can't open  ("src/hello_seymore/core.cljs" 14 13) No :open-file-command supplied in the config.
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.429 seconds.[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/hello_seymore/core.cljs   line:8  column:13  ----[0m
+
+  [1mUse of undeclared Var hello-seymore.core/like-seymore[0m
+
+  [36m 4[0m  [36m(defonce app-state (atom {:likes 0}))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn render! [][0m
+  [36m 7[0m  [36m  (.render js/ReactDOM[0m
+  [33m 8[0m  [1m           (like-seymore app-state)[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var hello-seymore.core/like-seymore[0m
+  [36m 9[0m  [36m           (.getElementById js/document "app")))[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(add-watch app-state :on-change (fn [_ _ _ _] (render!)))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(render!)[0m
+
+[36m----  Compiler Warning : Please see src/hello_seymore/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.495 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.307 seconds.[0m
+notifying browser that file changed:  out\like_seymore.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.393 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.368 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.365 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.378 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.296 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\like_seymore.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.309 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/hello_seymore/core.cljs   line:8  column:13  ----[0m
+
+  [1mUse of undeclared Var hello-seymore.core/like-seymore[0m
+
+  [36m 4[0m  [36m(defonce app-state (atom {:likes 0}))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn render! [][0m
+  [36m 7[0m  [36m  (.render js/ReactDOM[0m
+  [33m 8[0m  [1m           (like-seymore app-state)[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var hello-seymore.core/like-seymore[0m
+  [36m 9[0m  [36m           (.getElementById js/document "app")))[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(add-watch app-state :on-change (fn [_ _ _ _] (render!)))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(render!)[0m
+
+[36m----  Compiler Warning : Please see src/hello_seymore/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.716 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.585 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.508 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/hello_seymore/core.cljs   line:8  column:13  ----[0m
+
+  [1mUse of undeclared Var hello-seymore.core/like-seymore[0m
+
+  [36m 4[0m  [36m(defonce app-state (atom {:likes 0}))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn render! [][0m
+  [36m 7[0m  [36m  (.render js/ReactDOM[0m
+  [33m 8[0m  [1m           (like-seymore app-state)[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var hello-seymore.core/like-seymore[0m
+  [36m 9[0m  [36m           (.getElementById js/document "app")))[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(add-watch app-state :on-change (fn [_ _ _ _] (render!)))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(render!)[0m
+
+[36m----  Compiler Warning : Please see src/hello_seymore/core.cljs  ----[0m
+[32mSuccessfully compiled "main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.405 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.422 seconds.[0m
+notifying browser that file changed:  out\hello_seymore\compnents.js
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
+Notifying browser that CSS file changed: css/style.css
