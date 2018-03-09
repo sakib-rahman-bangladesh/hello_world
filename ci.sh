@@ -61,8 +61,9 @@ echo
 ## Delete file.ext
 ## Solved issues
 ## Default: Commit skipped|forgotten
+## Completion release 1.5.0
 
-git commit -m "Figwheel setup, continue ..."
+git commit -m "Completion release 1.5.0"
 
 ############
 # Step: 05 #

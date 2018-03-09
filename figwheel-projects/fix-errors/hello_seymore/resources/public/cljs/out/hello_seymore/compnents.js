@@ -8,4 +8,4 @@ return cljs.core.swap_BANG_.call(null,data,cljs.core.update_in,new cljs.core.Per
 })}),"Thumbs up")));
 });
 
-//# sourceMappingURL=compnents.js.map?rel=1519826349615
+//# sourceMappingURL=compnents.js.map?rel=1520627274290

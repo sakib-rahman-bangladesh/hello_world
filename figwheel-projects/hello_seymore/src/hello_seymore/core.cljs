@@ -1,7 +1,8 @@
 (ns hello-seymore.core
-  (:require [sablono.core :as sab]))
+  (:require [sablono.core :as sab]
+            [hello-seymore.components :refer [like-seymore]]))
 
-(defonce app-state (atom {:likes 0}))
+(defonce app-state (atom { :likes 0 }))
 
 (defn render! []
   (.render js/ReactDOM
